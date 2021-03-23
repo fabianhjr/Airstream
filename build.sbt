@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
 
 scalaVersion := Versions.Scala_2_13
 
-crossScalaVersions := Seq(Versions.Scala_2_12, Versions.Scala_2_13, Versions.Scala_3_RC2, Versions.Scala_3_RC3)
+crossScalaVersions := Seq(Versions.Scala_2_13)
 
 scalacOptions ~= { options: Seq[String] =>
   options.filterNot(Set(
